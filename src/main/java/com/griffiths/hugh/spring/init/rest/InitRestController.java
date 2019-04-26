@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class InitRestController {
 	@RequestMapping("/hello")
-	public String hello(){
+	public String hello() {
 		return new Date().toString();
 	}
 }
